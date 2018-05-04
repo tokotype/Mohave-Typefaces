@@ -7,10 +7,11 @@ derivative works.
 
 Basic Font Information
 
-Mohave is a titling display typeface, built with smooth height and dynamic glyph. This typeface is designed for large points setting and contains four weights.
+Initially designed by Gumpita Rahayu. as all-caps display fonts in 2013, it was expanded into a 4 weights family including matched italic in 2018.
 
-The new version has new body shapes, with more neutral and modulated forms, including some alternates in the uppercase and lowercase and equipped with OpenType Pro encoding. Mohave Typefaces is good for large text setting such as headlines, poster, title, etc.
-To contribute to the project, Please contact to Tokotype at https://github.com/dharmatype/Mohave-Typefaces/ or visit https://www.tokotypefaces.com
+Mohave is a titling display typeface, built with smooth height and dynamic glyph. This typeface is designed for large points setting and contains four weights. with each letterform is nearly monolinear, with fewer corrections applied to stroke and joints to maintain the typefaces structure remain visible. The new version has new body shapes, with more neutral and modulated forms, including some alternates in the uppercase and lowercase and equipped with OpenType Pro encoding.
+
+The Latin designed by Gumpita Rahayu. To contribute, see github.com/tokotype/mohave-typefaces
 
 
 
