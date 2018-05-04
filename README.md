@@ -5,9 +5,10 @@
 
 Initially designed by [Gumpita Rahayu](https://www.tokotypefaces.com). as all-caps display fonts in 2013, it was expanded into a 4 weights family including matched italic in 2018.
 
-Mohave is a titling display typeface, built with smooth height and dynamic glyph. This typeface is designed for large points setting and contains four weights.
+Mohave is a titling display typeface, built with smooth height and dynamic glyph. This typeface is designed for large points setting and contains four weights. with each letterform is nearly monolinear, with fewer corrections applied to stroke and joints to maintain the typefaces structure remain visible. The new version has new body shapes, with more neutral and modulated forms, including some alternates in the uppercase and lowercase and equipped with OpenType Pro encoding.
 
-The new version has new body shapes, with more neutral and modulated forms, including some alternates in the uppercase and lowercase and equipped with OpenType Pro encoding. Mohave Typefaces is good for large text setting such as headlines, poster, title, etc.
+The Latin designed by Gumpita Rahayu.
+To contribute, see <a href="https://github.com/tokotype/Mohave-Typefaces">github.com/tokotype/mohave-typefaces</a>
 
 ## Current Version
 - Version 2.002 is the latest stable version. Work in progress Cyrillic and Greek language.
@@ -36,6 +37,7 @@ http://scripts.sil.org/OFL
 
 ## Links
 * [tokotypefaces.com](https://www.tokotypefaces.com)
+* [Behance](https://www.behance.net/gallery/8668939/Mohave-Typefaces)
 
 ## Images
 
