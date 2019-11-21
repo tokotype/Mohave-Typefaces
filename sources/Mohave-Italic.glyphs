@@ -1,8 +1,5 @@
 {
-.appVersion = "1272";
-DisplayStrings = (
-"FACTORY POSTMODERN"
-);
+.appVersion = "1274";
 classes = (
 {
 automatic = 1;
@@ -52,6 +49,10 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Variable Font Origin";
+value = "DDDB0B36-051A-43AE-9F30-611505482296";
 }
 );
 date = "2018-03-29 21:42:32 +0000";
@@ -230,7 +231,7 @@ verticalStems = (
 110
 );
 weight = Light;
-weightValue = 55;
+weightValue = 300;
 widthValue = 5;
 xHeight = 1080;
 },
@@ -298,7 +299,7 @@ verticalStems = (
 );
 visible = 1;
 weight = Bold;
-weightValue = 135;
+weightValue = 700;
 widthValue = 5;
 xHeight = 1100;
 }
@@ -33668,68 +33669,40 @@ unicode = 0000;
 );
 instances = (
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 57;
+interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.025;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.975;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 1;
 };
-isItalic = 1;
 name = "Light Italic";
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 84;
+interpolationWeight = 400;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.3625;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.6375;
+"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.25;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 0.75;
 };
 isItalic = 1;
 name = Italic;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 117;
+interpolationWeight = 500;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.775;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.225;
+"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.5;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 0.5;
 };
-isItalic = 1;
 name = "Medium Italic";
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 135;
+interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
 "60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 1;
 };
-isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
 }

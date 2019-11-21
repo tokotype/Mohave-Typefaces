@@ -1,11 +1,7 @@
 {
-.appVersion = "1272";
+.appVersion = "1274";
 DisplayStrings = (
-z,
-"0/seven.dnom 23",
-"Factory POMO",
-" ",
-a
+"/IJ"
 );
 classes = (
 {
@@ -56,34 +52,37 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Variable Font Origin";
+value = "DDDB0B36-051A-43AE-9F30-611505482296";
 }
 );
-date = "2018-03-29 21:42:32 +0000";
+date = "2019-11-21 22:39:21 +0000";
 designer = "Gumpita Rahayu";
 designerURL = "https://www.tokotypefaces.com";
-disablesNiceNames = 1;
 familyName = Mohave;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature subs;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature case;\012feature hlig;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012";
+code = "feature locl;\012feature subs;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature case;\012feature salt;\012feature sinf;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@Markscomb = [acute breve caron circumflex dieresis dotaccent grave hungarumlaut macron ring tilde];\012	@MarkscombCase = [acute.case breve.case caron.case circumflex.case dieresis.case dotaccent.case grave.case hungarumlaut.case macron.case ring.case tilde.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
+code = "lookup ccmp_Other_1 {\012	@Markscomb = [dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron];\012	@MarkscombCase = [dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
 name = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_1;\012";
 name = locl;
 },
 {
@@ -128,7 +127,7 @@ name = tnum;
 },
 {
 automatic = 1;
-code = "sub acute by acute.case;\012sub breve by breve.case;\012sub caron by caron.case;\012sub circumflex by circumflex.case;\012sub dieresis by dieresis.case;\012sub dotaccent by dotaccent.case;\012sub grave by grave.case;\012sub hungarumlaut by hungarumlaut.case;\012sub macron by macron.case;\012sub ring by ring.case;\012sub tilde by tilde.case;\012";
+code = "sub dieresis by dieresis.case;\012sub dotaccent by dotaccent.case;\012sub grave by grave.case;\012sub acute by acute.case;\012sub hungarumlaut by hungarumlaut.case;\012sub circumflex by circumflex.case;\012sub caron by caron.case;\012sub breve by breve.case;\012sub ring by ring.case;\012sub tilde by tilde.case;\012sub macron by macron.case;\012";
 name = case;
 },
 {
@@ -138,17 +137,23 @@ name = hlig;
 },
 {
 automatic = 1;
-code = "sub longs t by longs_t;\012";
+code = "lookupflag IgnoreMarks;\012sub longs t by longs_t;\012";
 name = dlig;
 },
 {
 automatic = 1;
-code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
+code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 },
 {
-code = "sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub acircumflex by acircumflex.ss01;\012sub adieresis by adieresis.ss01;\012sub agrave by agrave.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub atilde by atilde.ss01;\012sub y by y.ss02;\012sub yacute by yacute.ss02;\012sub ycircumflex by ycircumflex.ss02;\012sub ydieresis by ydieresis.ss02;\012sub G by G.ss03;\012sub Gbreve by Gbreve.ss03;\012sub Gcircumflex by Gcircumflex.ss03;\012sub Gcommaaccent by Gcommaaccent.ss03;\012sub Gdotaccent by Gdotaccent.ss03;\012sub IJ by IJ.ss04;\012sub J by J.ss04;\012sub Jcircumflex by Jcircumflex.ss04;\012\012";
+automatic = 1;
+code = "sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub acircumflex by acircumflex.ss01;\012sub adieresis by adieresis.ss01;\012sub agrave by agrave.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub atilde by atilde.ss01;\012";
 name = salt;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
+name = sinf;
 },
 {
 automatic = 1;
@@ -233,7 +238,7 @@ verticalStems = (
 110
 );
 weight = Light;
-weightValue = 55;
+weightValue = 300;
 widthValue = 5;
 xHeight = 1080;
 },
@@ -300,7 +305,7 @@ verticalStems = (
 );
 visible = 1;
 weight = Bold;
-weightValue = 135;
+weightValue = 700;
 widthValue = 5;
 xHeight = 1100;
 }
@@ -22444,7 +22449,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -22487,7 +22492,7 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -22530,7 +22535,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -22573,7 +22578,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -22659,7 +22664,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -22702,7 +22707,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2019-11-21 23:09:18 +0000";
 layers = (
 {
 components = (
@@ -33651,64 +33656,40 @@ unicode = 0000;
 );
 instances = (
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 57;
+interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.025;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.975;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 1;
 };
 name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 84;
+interpolationWeight = 400;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.3625;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.6375;
+"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.25;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 0.75;
 };
 name = Regular;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 117;
+interpolationWeight = 500;
 interpolationWidth = 5;
 instanceInterpolations = {
-"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.775;
-"DDDB0B36-051A-43AE-9F30-611505482296" = 0.225;
+"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.5;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 0.5;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = Mohave;
-}
-);
-interpolationWeight = 135;
+interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
 "60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 }
