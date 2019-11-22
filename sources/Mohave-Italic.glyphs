@@ -7,7 +7,7 @@ code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atild
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2018 by Gumpita Rahayu. All rights reserved.";
+copyright = "Copyright 2019 The Mohave Project Authors (https://github.com/bghryct/Mohave-Typefaces)";
 customParameters = (
 {
 name = description;
@@ -182,7 +182,7 @@ capHeight = 1500;
 customParameters = (
 {
 name = typoAscender;
-value = 1560;
+value = 1980;
 },
 {
 name = typoDescender;
@@ -194,15 +194,15 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1960;
+value = 1980;
 },
 {
 name = winDescent;
-value = 440;
+value = 806;
 },
 {
 name = hheaAscender;
-value = 1960;
+value = 1980;
 },
 {
 name = hheaDescender;
@@ -260,15 +260,15 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1960;
+value = 1980;
 },
 {
 name = winDescent;
-value = 440;
+value = 806;
 },
 {
 name = hheaAscender;
-value = 1960;
+value = 1980;
 },
 {
 name = hheaDescender;
