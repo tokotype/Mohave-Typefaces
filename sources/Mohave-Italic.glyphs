@@ -1,5 +1,5 @@
 {
-.appVersion = "1274";
+.appVersion = "1283";
 classes = (
 {
 automatic = 1;
@@ -55,7 +55,7 @@ name = "Variable Font Origin";
 value = "DDDB0B36-051A-43AE-9F30-611505482296";
 }
 );
-date = "2018-03-29 21:42:32 +0000";
+date = "2020-01-08 19:56:05 +0000";
 designer = "Gumpita Rahayu";
 designerURL = "https://www.tokotypefaces.com";
 disablesNiceNames = 1;
@@ -171,14 +171,15 @@ name = ss04;
 fontMaster = (
 {
 alignmentZones = (
-"{1560, 32}",
-"{1500, 32}",
-"{1080, 24}",
-"{0, -32}",
-"{-440, -24}"
+"{1560, 16}",
+"{1500, 33}",
+"{1080, 25}",
+"{0, -33}",
+"{-440, -31}"
 );
 ascender = 1560;
 capHeight = 1500;
+custom = Italic;
 customParameters = (
 {
 name = typoAscender;
@@ -186,7 +187,7 @@ value = 1980;
 },
 {
 name = typoDescender;
-value = -440;
+value = -806;
 },
 {
 name = typoLineGap;
@@ -206,7 +207,7 @@ value = 1980;
 },
 {
 name = hheaDescender;
-value = -440;
+value = -806;
 },
 {
 name = hheaLineGap;
@@ -218,7 +219,7 @@ value = -160;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 125;
 }
 );
 descender = -440;
@@ -237,22 +238,23 @@ xHeight = 1080;
 },
 {
 alignmentZones = (
-"{1560, 32}",
-"{1500, 32}",
-"{1100, 26}",
-"{0, -32}",
-"{-440, -26}"
+"{1560, 16}",
+"{1500, 33}",
+"{1100, 27}",
+"{0, -33}",
+"{-440, -31}"
 );
 ascender = 1560;
 capHeight = 1500;
+custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 1560;
+value = 1980;
 },
 {
 name = typoDescender;
-value = -440;
+value = -806;
 },
 {
 name = typoLineGap;
@@ -272,7 +274,7 @@ value = 1980;
 },
 {
 name = hheaDescender;
-value = -440;
+value = -806;
 },
 {
 name = hheaLineGap;
@@ -284,7 +286,7 @@ value = -160;
 },
 {
 name = underlineThickness;
-value = 160;
+value = 125;
 }
 );
 descender = -440;
@@ -33674,6 +33676,8 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "DDDB0B36-051A-43AE-9F30-611505482296" = 1;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
@@ -33694,6 +33698,8 @@ instanceInterpolations = {
 "60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.5;
 "DDDB0B36-051A-43AE-9F30-611505482296" = 0.5;
 };
+isItalic = 1;
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
@@ -33703,6 +33709,8 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 1;
 };
+isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
 }

@@ -1,5 +1,5 @@
 {
-.appVersion = "1274";
+.appVersion = "1283";
 DisplayStrings = (
 "/IJ"
 );
@@ -194,7 +194,7 @@ value = 1980;
 },
 {
 name = typoDescender;
-value = -440;
+value = -806;
 },
 {
 name = typoLineGap;
@@ -214,7 +214,7 @@ value = 1980;
 },
 {
 name = hheaDescender;
-value = -440;
+value = -806;
 },
 {
 name = hheaLineGap;
@@ -226,7 +226,7 @@ value = -160;
 },
 {
 name = underlineThickness;
-value = 90;
+value = 125;
 }
 );
 descender = -440;
@@ -259,7 +259,7 @@ value = 1980;
 },
 {
 name = typoDescender;
-value = -440;
+value = -806;
 },
 {
 name = typoLineGap;
@@ -279,7 +279,7 @@ value = 1980;
 },
 {
 name = hheaDescender;
-value = -440;
+value = -806;
 },
 {
 name = hheaLineGap;
@@ -291,7 +291,7 @@ value = -160;
 },
 {
 name = underlineThickness;
-value = 160;
+value = 125;
 }
 );
 descender = -440;
