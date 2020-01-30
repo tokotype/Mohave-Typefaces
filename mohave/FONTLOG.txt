@@ -17,7 +17,7 @@ The Latin designed by Gumpita Rahayu. To contribute, see github.com/tokotype/moh
 
 ChangeLog
 
-23 January 2020 (Mirko Velimirovic) Built variable font versions of Mohave, expanded characterset, and PR'd to Google Fonts.
+30 January 2020 (Mirko Velimirovic) Built variable font versions of Mohave, expanded characterset, and PR'd to Google Fonts.
 
 3 May 2018 (Gumpita Rahayu) Mohave Typefaces v2.002
 -Fixed bug on dollar sign and cent, replacing a with a.salt on italic
