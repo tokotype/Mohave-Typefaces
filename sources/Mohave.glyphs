@@ -1,8 +1,5 @@
 {
-.appVersion = "1283";
-DisplayStrings = (
-"/IJ"
-);
+.appVersion = "1349";
 classes = (
 {
 automatic = 1;
@@ -54,8 +51,8 @@ Tag = wght;
 );
 },
 {
-name = "Variable Font Origin";
-value = "DDDB0B36-051A-43AE-9F30-611505482296";
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2019-11-22 19:31:13 +0000";
@@ -33684,6 +33681,15 @@ name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 600;
+instanceInterpolations = {
+"60B18B06-8123-4D0C-85E3-2DE7B5C03586" = 0.75;
+"DDDB0B36-051A-43AE-9F30-611505482296" = 0.25;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -34080,5 +34086,5 @@ manufacturer = Tokotype;
 manufacturerURL = "https://www.tokotypefaces.com";
 unitsPerEm = 2000;
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
