@@ -1,5 +1,5 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atild
 name = Uppercase;
 }
 );
-copyright = "Copyright 2019 The Mohave Project Authors (https://github.com/bghryct/Mohave-Typefaces)";
+copyright = "Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)";
 customParameters = (
 {
 name = description;
