@@ -1,5 +1,8 @@
 {
-.appVersion = "1342";
+.appVersion = "1349";
+DisplayStrings = (
+":"
+);
 classes = (
 {
 automatic = 1;
@@ -22835,7 +22838,7 @@ unicode = 002C;
 },
 {
 glyphname = colon;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2021-08-10 21:52:12 +0000";
 layers = (
 {
 layerId = "60B18B06-8123-4D0C-85E3-2DE7B5C03586";
@@ -22843,19 +22846,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"434 0 LINE",
-"434 270 LINE",
-"164 270 LINE",
-"164 0 LINE"
+"434 630 LINE",
+"434 900 LINE",
+"164 900 LINE",
+"164 630 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"434 630 LINE",
-"434 900 LINE",
-"164 900 LINE",
-"164 630 LINE"
+"434 0 LINE",
+"434 270 LINE",
+"164 270 LINE",
+"164 0 LINE"
 );
 }
 );
@@ -22907,7 +22910,7 @@ unicode = 003A;
 },
 {
 glyphname = semicolon;
-lastChange = "2019-11-13 16:16:32 +0000";
+lastChange = "2021-08-10 21:52:53 +0000";
 layers = (
 {
 layerId = "60B18B06-8123-4D0C-85E3-2DE7B5C03586";
@@ -22915,19 +22918,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"436 630 LINE",
-"436 900 LINE",
-"166 900 LINE",
-"166 630 LINE"
+"356 -140 LINE",
+"436 270 LINE",
+"186 270 LINE",
+"106 -140 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"356 -140 LINE",
-"436 270 LINE",
-"186 270 LINE",
-"106 -140 LINE"
+"436 630 LINE",
+"436 900 LINE",
+"166 900 LINE",
+"166 630 LINE"
 );
 }
 );
